@@ -15,6 +15,6 @@ public class IntroJsEntryPoint implements EntryPoint {
 
 	@Override
 	public void onModuleLoad() {
-		ScriptInjector.fromString(Resources.INSTANCE.introJs().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
+		//ScriptInjector.fromString(Resources.INSTANCE.introJs().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 	}
 }
